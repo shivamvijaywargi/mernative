@@ -23,7 +23,7 @@ app.use('/api/v1', userRoutes);
 
 app.get('/', (req, res) => {
   res.send(
-    `Server built by Shivam Vijaywargim you can find me @ https://github.com/shivamvijaywargi and the repository at https://github.com/shivamvijaywargi/mernative`
+    `Server built by Shivam Vijaywargi you can find me @ https://github.com/shivamvijaywargi and the repository at https://github.com/shivamvijaywargi/mernative`
   );
 });
 
