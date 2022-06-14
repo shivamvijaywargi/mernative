@@ -21,4 +21,10 @@ app.use(
 
 app.use('/api/v1', userRoutes);
 
+app.get('/', (req, res) => {
+  res.send(
+    `Server built by Shivam Vijaywargim you can find me @ https://github.com/shivamvijaywargi`
+  );
+});
+
 export default app;
